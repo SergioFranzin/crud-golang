@@ -1,0 +1,32 @@
+# Binários compilados
+/bin/
+/build/
+/dist/
+/out/
+
+# Arquivos gerados durante a compilação
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Módulos e cache do Go
+/vendor/
+/go-build/
+
+# Diretórios do sistema e do editor
+.DS_Store
+.idea/
+/.vscode/
+/*.swp
+
+# Logs
+*.log
+
+# Dados de teste
+*.coverprofile
+*.prof
+
+# Configurações específicas do projeto (personalize conforme necessário)
+.env
